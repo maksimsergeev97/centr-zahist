@@ -1,0 +1,15 @@
+.clients{
+    margin-top: 60px;
+    &__carousel{
+        width: 900px;
+        display: block;
+        margin: 0 auto;
+        margin-top: 50px;
+        &__item{
+            height: 200px;
+            width: 230px;
+            margin: 0 40px 0 40px;
+        }
+
+    }
+}

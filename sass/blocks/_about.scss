@@ -1,0 +1,36 @@
+.about{
+    padding: 40px 0 20px 0;
+    height: 600px;
+    position: relative;
+    &__wrapper{
+        width: 600px;
+        height: 500px;
+        background-color: #333f50;
+        padding: 30px 30px 30px 100px;
+        float: right;
+        position: relative;
+    }
+    &__title{
+        color: #fff;
+        font-size: 25px;
+        font-weight: 600;
+    }
+    &__subtitle{
+        color: #fff;
+        font-size: 18px;
+        font-weight: 500;
+    }
+    &__descr{
+        margin-top: 20px;
+        color: #fff;
+        font-weight: 300;
+        font-size: 15px;
+        text-align: justify;
+    }
+    img{
+        max-width: 600px;
+        position: absolute;
+        top: 17%;
+        left: -87%;
+    }
+}

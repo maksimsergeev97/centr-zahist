@@ -1,0 +1,24 @@
+@import 'blocks/header';
+@import 'blocks/promo';
+@import 'blocks/title';
+@import 'blocks/buttons';
+@import 'blocks/services';
+@import 'blocks/about';
+@import 'blocks/benefits';
+@import 'blocks/clients';
+@import 'blocks/feedback';
+@import 'blocks/form';
+@import 'blocks/footer';
+@import 'base/media';
+*{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+body{
+    background-color: #fff;
+}
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}

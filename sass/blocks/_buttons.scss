@@ -1,0 +1,34 @@
+.button{
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    width: 200px;
+    height: 52px;
+    border-radius: 7px;
+    background-color: #fff;
+    border: none;
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #333f50;
+    transition: 0.5s all;
+    &:hover{
+        box-shadow: 1px 1px 10px #fff;
+        transform: scale(1.1);
+    }
+    &_form{
+        width: 300px;
+        font-size: 18px;
+    }
+    &_mini{
+        padding: 5px;
+        width: 120px;
+        height: 32px;
+        font-size: 13px;
+        border: 1px solid #333f50;
+        &:hover{
+            box-shadow: 1px 1px 10px #333f50;
+            transform: none;
+        }
+    }
+}

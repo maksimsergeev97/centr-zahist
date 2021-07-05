@@ -1,0 +1,51 @@
+.header{
+    padding: 20px 0 0 0;
+    &__logo{
+        width: 75%;
+        display: block;
+        margin: 0 auto;
+        transform: translateX(-5%);
+    }
+    &__menu{
+        margin-left: 18%;
+        margin-right: 18%;
+        width: 64%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        list-style: none;
+        li{
+            transition: 0.8s all;
+            &:hover{
+                transform: scale(1.2);
+            }
+        }
+        a{
+            color: #333f50;
+            font-size: 18px;
+            font-weight: 700;
+            text-decoration: none;
+            transition: 0.5s;
+            &:hover{
+                color: #333f50;
+            }
+        }
+    }
+    .scrol-menu{
+        width: 100%;
+        margin: 0;
+        height: 50px;
+        background-color: rgb(227, 223, 240, 0.8);
+        justify-content: center;
+        a{
+            margin-right: 30px;
+        }
+    }
+    .f-nav{ 
+        z-index: 9999; 
+        position: fixed; 
+        left: 0; 
+        top: 0; 
+        width: 100%;
+    } 
+}
