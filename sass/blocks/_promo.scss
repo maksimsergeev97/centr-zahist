@@ -6,6 +6,12 @@
         div{
             height: 100%;
         }
+        a{
+            &:hover{
+                color:#fff;
+                text-decoration: none;
+            }
+        }
     }
     &__descr{
         text-align: center;

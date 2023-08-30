@@ -196,29 +196,35 @@
         height: 570px;
         img{
             top: -14%;
-            left: 9%;
-            width: 350px;
+            left: 8%;
+            width: 340px;
         }
         &__wrapper{
+            width: 100%;
             float: none;
             display: block;
             margin: 0 auto;
-            height: 500px;
-            padding: 140px 30px 30px 30px;
+            height: 580px;
+            padding: 130px 30px 30px 30px;
         }
         &__descr{
-            font-size: 12px;
-            width: 400px;
+            font-size: 13px;
+            width: 100%;
+            font-weight: 300;
         }
     }
-    .benefits__content{
-        flex-direction: column;
-        align-items: center;
-        .benefits__item{
-            margin-top: 30px;
-            margin-right: 0;
+    .benefits{
+        margin-top: 90px;
+        &__content{
+            flex-direction: column;
+            align-items: center;
+            .benefits__item{
+                margin-top: 30px;
+                margin-right: 0;
+            }
         }
     }
+
     .clients{
         margin-top: 30px;
         &__carousel{
